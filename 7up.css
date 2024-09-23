@@ -1,0 +1,146 @@
+* {
+  margin:0;
+  padding:0;
+}
+.main-navbar{
+  background-color:rgb(47, 169, 47);
+  height:130px;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid white;
+}
+
+.logo{
+  width: 90px;
+  height:90px;
+  vertical-align:center;
+  padding:20px ;  
+}
+.main-navbar ul{
+  display: flex;
+  color: white;
+  list-style: none;}
+.nav-list{
+  display: flex;
+  padding-right: 30px;
+  height:100%;
+  align-items: center;
+}
+.menu li{
+  padding: 20px;
+  font-size: 26px;
+  font-family: "Dosins", sans-serif;
+  font-weight: 600;
+}
+.icon li{
+  width:40px;
+  height:35px;
+  padding:5px;
+  font-size: 26px;
+  font-weight: 34px;
+  cursor: pointer;
+}
+.menu ul{
+  padding-right:50px;
+  cursor: pointer;
+}
+.menu li:hover{
+  text-decoration: underline;
+}
+.main-images h1{
+  font-family: "Dosins", sans-serif;
+  font-size: 70px;
+  color: white;
+  width:50px;
+}
+.image-1{
+  height: 805px;
+  background-image: url(img1/image2.webp);
+  background-size: contain;
+  padding-top: 300px;
+  padding-left: 150px; 
+}
+.image-1 button{
+  height:47px;
+  width: 196px;
+  border-radius: 24px;
+  background:transparent;
+  border:3px solid white;
+  color:white;
+  font-size: 15px;
+  font-weight: 200;
+  cursor: pointer; 
+  font-family: "Dosins", sans-serif;
+}
+.image2{
+  height: 805px;
+  width:100%;
+  background-size: contain;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-21{
+  width:756px;
+  height:197px;
+  border-radius: 99px;
+  background-color: rgba(0, 128, 0, 0.681);
+}
+.image-21 h3{
+  text-align: center;
+  color: white;
+  margin-top:20px;
+  font-size: 30px;
+  font-weight: 800;
+  font-family: "Dosins", sans-serif;
+  cursor: pointer;
+}
+.image-21 p{
+  text-align: center;
+  color: white;
+  margin-top:12px;
+  font-size: 20px;
+  font-weight: 70;
+  font-family: "Dosins", sans-serif;
+  cursor: pointer;
+}
+.image-21 button{
+  display: block;
+  height:47px;
+  width: 196px;
+  border-radius: 24px;
+  background:transparent;
+  border:3px solid white;
+  color:white;
+  font-size: 15px;
+  font-weight: 300;
+  cursor: pointer; 
+  margin:0 auto;
+  margin-top: 20px;
+  font-family: "Dosins", sans-serif;
+}
+.footer-1 ul{
+  display:flex;
+  list-style:  none;
+  justify-content: center;
+}
+.footer-1 li:hover{
+  text-decoration: underline;
+  color: white;
+}
+.footer-1 li{
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+}
+.footer-1 p{
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+.footer-1{
+  background-color:rgb(54, 53, 53);
+  padding-bottom:10px;
+
+}
